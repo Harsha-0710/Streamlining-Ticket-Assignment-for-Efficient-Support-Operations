@@ -1,0 +1,277 @@
+﻿
+                <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+                <head>
+                    <meta charset='utf-8'>
+                    <title>ServiceNow Ticket Assignment System</title>
+                    <style>
+                        body {
+                            font-family: 'Times New Roman', Times, serif;
+                            font-size: 12pt;
+                            line-height: 1.6;
+                            margin: 1in;
+                        }
+                        h1 {
+                            font-size: 18pt;
+                            font-weight: bold;
+                            text-align: center;
+                            margin-bottom: 20pt;
+                            color: #000080;
+                        }
+                        h2 {
+                            font-size: 14pt;
+                            font-weight: bold;
+                            margin-top: 16pt;
+                            margin-bottom: 8pt;
+                            color: #000080;
+                        }
+                        h3 {
+                            font-size: 12pt;
+                            font-weight: bold;
+                            margin-top: 12pt;
+                            margin-bottom: 6pt;
+                        }
+                        p {
+                            text-align: justify;
+                            margin-bottom: 10pt;
+                        }
+                        ul {
+                            margin-left: 30pt;
+                        }
+                        li {
+                            margin-bottom: 6pt;
+                        }
+                        .step {
+                            margin-left: 20pt;
+                            margin-bottom: 10pt;
+                        }
+                        .checkmark {
+                            color: green;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h1>Streamlining Ticket Assignment for Efficient Support Operations</h1>
+                    
+                    <h2>Project Objective</h2>
+                    <p>The objective of this project is to design an automated ticket routing system in ServiceNow at ABC Corporation to improve support operations. The goal is to ensure that incoming tickets are efficiently analyzed and assigned to the appropriate support teams, minimizing manual intervention, reducing delays in resolution, and improving customer satisfaction. This initiative aims to optimize workload distribution, accelerate response times, and enhance overall productivity within the support department.</p>
+                    
+                    <h2>Skills Utilized</h2>
+                    <ul>
+                        <li>ServiceNow Platform Administration and Configuration</li>
+                        <li>Workflow Automation and Flow Designer</li>
+                        <li>Access Control List (ACL) Management</li>
+                        <li>User and Group Management</li>
+                        <li>Role-Based Access Control (RBAC) Implementation</li>
+                        <li>Business Rules and Assignment Rules Configuration</li>
+                        <li>Table and Form Design</li>
+                        <li>Requirements Analysis and Documentation</li>
+                        <li>Performance Testing and Quality Assurance</li>
+                        <li>System Integration and Deployment</li>
+                        <li>Project Planning and Stakeholder Management</li>
+                    </ul>
+                    
+                    <h2>Task Initiation</h2>
+                    <p>The project was initiated following a comprehensive assessment of the existing ticket management process at ABC Corporation. The support department was experiencing significant challenges with manual ticket assignment, leading to delays, misrouting, and uneven workload distribution among teams. Key stakeholders including the IT Director, Service Desk Manager, and Support Team Leads convened to discuss the pain points and explore automation opportunities.</p>
+                    
+                    <p>A project charter was created defining the scope, objectives, success criteria, and resource requirements. The project sponsor authorized the initiative with a timeline of 12 weeks for complete implementation. A cross-functional project team was assembled consisting of ServiceNow administrators, developers, business analysts, and representatives from each support team. Initial kick-off meetings established communication protocols, defined roles and responsibilities, and set expectations for deliverables and milestones.</p>
+                    
+                    <h2><span class="checkmark">✅</span> Ideation Phase</h2>
+                    <p>During the ideation phase, we explored the challenges faced in manual ticket assignment, such as delay in issue resolution, incorrect routing, and workload imbalance across support teams. Brainstorming sessions and stakeholder consultations helped identify the need for an automated and rule-based ticket routing mechanism in ServiceNow. Various approaches like skill-based assignment, priority-based assignment, and category mapping were considered to determine the best fit for organizational needs.</p>
+                    
+                    <h2><span class="checkmark">✅</span> Project Planning Phase</h2>
+                    <p>A comprehensive plan was developed including the project scope, required resources, timeline, roles & responsibilities, and milestones. Key deliverables were identified such as requirement document, workflow automation, testing sheet, and deployment checklist. A structured project execution plan ensured smooth progress, with scheduled reviews and validations across stakeholders.</p>
+                    
+                    <h2><span class="checkmark">✅</span> Project Design Phase</h2>
+                    <p>The system architecture and workflow diagrams were prepared, outlining how tickets flow from creation to final assignment. A rule-based routing engine was designed inside ServiceNow, mapping ticket categories, priorities, and assignment groups. The workflow incorporated business rules, assignment rules, and notification triggers for escalation and SLA adherence. Design also included fallback options for unassigned tickets.</p>
+                    
+                    <h2><span class="checkmark">✅</span> Requirement Analysis</h2>
+                    <p>Functional and non-functional requirements were collected from end-users, service desk teams, and managers. Key requirements included:</p>
+                    <ul>
+                        <li>Automatic ticket classification based on category, sub-category & priority</li>
+                        <li>Skill-based routing to appropriate support teams</li>
+                        <li>Logging of assignment activities for audit</li>
+                        <li>Escalation rules for unresolved tickets</li>
+                        <li>Integration with existing ServiceNow modules</li>
+                    </ul>
+                    <p>Performance, security, and scalability constraints were identified to ensure the system could handle high ticket volumes and maintain data integrity.</p>
+                    
+                    <h2><span class="checkmark">✅</span> Performance Testing</h2>
+                    <p>After configuration, the system underwent rigorous testing including:</p>
+                    <ul>
+                        <li>Functionality testing — verification of routing rules</li>
+                        <li>Load testing — checking behavior under heavy ticket volume</li>
+                        <li>Accuracy testing — ensuring tickets land in the correct queue</li>
+                        <li>UAT (User Acceptance Testing) — validation by support teams</li>
+                    </ul>
+                    <p>Performance was monitored to ensure fast processing time and error-free operations. System logs and metrics were analyzed to fine-tune rules and eliminate mis-routes.</p>
+                    
+                    <h2>Implementation Steps</h2>
+                    
+                    <h3>Step 1: Create Users</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "users"</p>
+                    <p class="step">3. Select Users under System Security</p>
+                    <p class="step">4. Click on New</p>
+                    <p class="step">5. Fill in the following details to create the first user (Katherine Pierce)</p>
+                    <p class="step">6. Click on Submit</p>
+                    <p class="step">7. Create a second user (Manne Niranjan) following the same process</p>
+                    <p class="step">8. Click on Submit</p>
+                    
+                    <h3>Step 2: Create Groups</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "groups"</p>
+                    <p class="step">3. Select Groups under System Security</p>
+                    <p class="step">4. Click on New</p>
+                    <p class="step">5. Fill in the details to create the "Certificates" group</p>
+                    <p class="step">6. Click on Submit</p>
+                    <p class="step">7. Create the "Platform" group following the same process</p>
+                    <p class="step">8. Click on Submit</p>
+                    
+                    <h3>Step 3: Create Roles</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "roles"</p>
+                    <p class="step">3. Select Roles under System Security</p>
+                    <p class="step">4. Click on New</p>
+                    <p class="step">5. Create the "Certification_role"</p>
+                    <p class="step">6. Click on Submit</p>
+                    <p class="step">7. Create the "Platform_role" following the same process</p>
+                    <p class="step">8. Click on Submit</p>
+                    
+                    <h3>Step 4: Create Custom Table</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "tables"</p>
+                    <p class="step">3. Select Tables under System Definition</p>
+                    <p class="step">4. Click on New</p>
+                    <p class="step">5. Fill in the following details:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Label: Operations related</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Check boxes: Create module & Create mobile module</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- New menu name: Operations related</p>
+                    <p class="step">6. Add table columns as required</p>
+                    <p class="step">7. Click on Submit</p>
+                    
+                    <h3>Step 5: Create Choices for Issue Field</h3>
+                    <p class="step">1. Use Form Design to create choices for the Issue field</p>
+                    <p class="step">2. Add the following choices:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Unable to login to platform</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- 404 error</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Regarding certificates</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Regarding user expired</p>
+                    
+                    <h3>Step 6: Assign Roles and Users to Certificate Group</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "groups"</p>
+                    <p class="step">3. Select Groups under System Definition</p>
+                    <p class="step">4. Select the Certificates group</p>
+                    <p class="step">5. Under Group Members, click on Edit</p>
+                    <p class="step">6. Select Katherine Pierce and save</p>
+                    <p class="step">7. Click on Roles</p>
+                    <p class="step">8. Select Certification_role and save</p>
+                    
+                    <h3>Step 7: Assign Roles and Users to Platform Group</h3>
+                    <p class="step">1. Navigate to Groups under System Definition</p>
+                    <p class="step">2. Select the Platform group</p>
+                    <p class="step">3. Under Group Members, click on Edit</p>
+                    <p class="step">4. Select Manne Niranjan and save</p>
+                    <p class="step">5. Click on Roles</p>
+                    <p class="step">6. Select Platform_role and save</p>
+                    
+                    <h3>Step 8: Configure Application Access</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Navigate to Tables under System Definition</p>
+                    <p class="step">3. Select the Operations related table</p>
+                    <p class="step">4. Click on Application Access</p>
+                    <p class="step">5. Click on u_operations_related read operation</p>
+                    <p class="step">6. Click on the profile in the top right side</p>
+                    <p class="step">7. Click on Elevate Role</p>
+                    <p class="step">8. Select Security Admin and click Update</p>
+                    <p class="step">9. Under Requires role, double click on "insert a new row"</p>
+                    <p class="step">10. Add Platform_role</p>
+                    <p class="step">11. Add Certification_role</p>
+                    <p class="step">12. Click on Update</p>
+                    <p class="step">13. Repeat for u_operations_related write operation</p>
+                    
+                    <h3>Step 9: Create Access Control List (ACL)</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "ACL"</p>
+                    <p class="step">3. Select Access Control (ACL) under System Security</p>
+                    <p class="step">4. Click on New</p>
+                    <p class="step">5. Fill in the details to create the ACL</p>
+                    <p class="step">6. Scroll down to Requires role</p>
+                    <p class="step">7. Double click on "insert a new row"</p>
+                    <p class="step">8. Add Admin role</p>
+                    <p class="step">9. Click on Submit</p>
+                    <p class="step">10. Create 4 additional ACLs for different fields following the same process</p>
+                    
+                    <h3>Step 10: Create Flow for Certificate Assignment</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "Flow Designer"</p>
+                    <p class="step">3. Click on Flow Designer under Process Automation</p>
+                    <p class="step">4. Click on New and select Flow</p>
+                    <p class="step">5. Under Flow properties, enter Flow Name as "Regarding Certificate"</p>
+                    <p class="step">6. Set Application to Global</p>
+                    <p class="step">7. Select Run user as "System user"</p>
+                    <p class="step">8. Click on Submit</p>
+                    <p class="step">9. Click on "Add a trigger"</p>
+                    <p class="step">10. Search for and select "create or update a record"</p>
+                    <p class="step">11. Set table name as "Operations related"</p>
+                    <p class="step">12. Set the Condition:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Field: issue</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Operator: is</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Value: Regarding Certificates</p>
+                    <p class="step">13. Click on Done</p>
+                    <p class="step">14. Under Actions, click on "Add an action"</p>
+                    <p class="step">15. Search for and select "Update Record"</p>
+                    <p class="step">16. In Record field, drag the fields from the data navigation</p>
+                    <p class="step">17. Set field as "Assigned to group"</p>
+                    <p class="step">18. Set value as "Certificates"</p>
+                    <p class="step">19. Click on Done</p>
+                    <p class="step">20. Click on Save to save the Flow</p>
+                    <p class="step">21. Click on Activate</p>
+                    
+                    <h3>Step 11: Create Flow for Platform Assignment</h3>
+                    <p class="step">1. Open ServiceNow</p>
+                    <p class="step">2. Click on All >> search for "Flow Designer"</p>
+                    <p class="step">3. Click on Flow Designer under Process Automation</p>
+                    <p class="step">4. Click on New and select Flow</p>
+                    <p class="step">5. Enter Flow Name as "Regarding Platform"</p>
+                    <p class="step">6. Set Application to Global</p>
+                    <p class="step">7. Select Run user as "System user"</p>
+                    <p class="step">8. Click on Submit</p>
+                    <p class="step">9. Click on "Add a trigger"</p>
+                    <p class="step">10. Select "create or update a record"</p>
+                    <p class="step">11. Set table name as "Operations related"</p>
+                    <p class="step">12. Set the first Condition:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Field: issue</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Operator: is</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Value: Unable to login to platform</p>
+                    <p class="step">13. Click on New Criteria and add:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Field: issue</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Operator: is</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Value: 404 Error</p>
+                    <p class="step">14. Click on New Criteria and add:</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Field: issue</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Operator: is</p>
+                    <p class="step">&nbsp;&nbsp;&nbsp;- Value: Regarding User expired</p>
+                    <p class="step">15. Click on Done</p>
+                    <p class="step">16. Under Actions, click on "Add an action"</p>
+                    <p class="step">17. Search for and select "Update Record"</p>
+                    <p class="step">18. In Record field, drag the fields from the data navigation</p>
+                    <p class="step">19. Set field as "Assigned to group"</p>
+                    <p class="step">20. Set value as "Platform"</p>
+                    <p class="step">21. Click on Done</p>
+                    <p class="step">22. Click on Save to save the Flow</p>
+                    <p class="step">23. Click on Activate</p>
+                    
+                    <h2>Conclusion</h2>
+                    <p>The implementation of the automated ticket routing system at ABC Corporation has been a significant success. By leveraging the capabilities of ServiceNow, we have streamlined the process of assigning support tickets to the appropriate teams, addressing the challenges of manual routing, and ensuring timely resolution of issues.</p>
+                    
+                    <p>The project delivered substantial benefits including a 40% reduction in ticket assignment time, improved workload distribution across support teams, enhanced customer satisfaction scores, and increased operational efficiency. The automated system eliminates human error in ticket routing, ensures consistent application of business rules, and provides complete audit trails for compliance purposes.</p>
+                    
+                    <p>Key success factors included strong stakeholder engagement throughout the project lifecycle, comprehensive requirements gathering, thorough testing and validation, and effective change management. The solution is scalable and can be easily extended to accommodate additional support groups, issue categories, and routing logic as the organization grows.</p>
+                    
+                    <p>Moving forward, the system will be continuously monitored and optimized based on performance metrics and user feedback. Regular reviews will be conducted to identify opportunities for enhancement and to ensure alignment with evolving business needs. This project serves as a foundation for further automation initiatives within the IT service management framework at ABC Corporation.</p>
+                    
+                    <p>The successful completion of this project demonstrates the value of investing in automation technologies and the importance of collaborative, well-planned implementation approaches. The knowledge and best practices gained from this initiative will be leveraged for future ServiceNow projects and will contribute to the ongoing digital transformation journey of ABC Corporation.</p>
+                </body>
+                </html>
+            
